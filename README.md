@@ -1,2 +1,2 @@
-# boilerplate
-Basic HTML and CSS setup for simple web design
+# Static HTML Boilerplate
+Basic HTML, CSS, and JavaScript setup for a simple website.
