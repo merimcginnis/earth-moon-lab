@@ -45,8 +45,45 @@ p {
     transition: transform 0.3s ease;
 }
 
+.planets .earth {
+    width: 400px;
+}
+
+.planets .moon {
+    width: 150px;
+}
+
 .planets img:hover {
     transform: scale(1.1);
 }
 
+@media (max-width: 768px) {
+    div {
+        margin: 20px;
+    }
+    .planets .earth {
+        width: 250px;        
+    }
+    .planets .moon {
+        width: 100px;
+    }
+    .planets {
+        gap: 30px;
+    }
 
+    p {
+        font-size: medium;
+    }
+}
+
+@media (max-width: 480px) {
+    .planets .earth {
+        width: 150px;        
+    }
+    .planets .moon {
+        width: 75px;
+    }
+    .planets {
+        gap: 20px;
+    }
+}
