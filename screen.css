@@ -2,3 +2,51 @@
 a.active {
     font-weight: bold;
 }
+
+body {
+    background-color: #2F3857;
+    margin: 0;
+    padding: 0;
+    color: rgb(223, 223, 223);
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    margin: 60px;
+}
+
+h1 {
+    font-family: "synthemesc", sans-serif;
+    margin: 50px;
+    font-style: normal;
+    font-size: 100px;
+}
+
+p {
+    font-family: "hoss-round", sans-serif;
+    margin: 50px;
+    font-weight: 400;
+    font-size: 20px;
+    font-style: normal;
+}
+
+.planets {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 400px;
+}
+
+
+.planets img {
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.planets img:hover {
+    transform: scale(1.1);
+}
+
+
